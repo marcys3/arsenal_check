@@ -1,7 +1,7 @@
 /*
  * Name:	fn_arsenal
- * Date:	02/09/2021
- * Version: 1.0
+ * Date:	23/11/2021
+ * Version: 2.0
  * Author: Fluffy
  *
  * Description:
@@ -19,7 +19,7 @@
 params ["_camera"];
 _uid = getPlayerUID player;
 _zero_based_position = ARSENAL_CHECK_ID findIf {_x == _uid};
-	if (_uid != ARSENAL_CHECK_ID) then {
+	if (_zero_based_position == -1) then {
 	//Arsenal
 if ((_camera#1 == "ace_arsenal" || _camera#1 == "arsenal") && ARSENAL_CHECK) then {
 format ["Gracz: %1 korzysta z Arsenału", name player] remoteExec ["systemChat", 0];
