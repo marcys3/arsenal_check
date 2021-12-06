@@ -1,4 +1,6 @@
 # arsenal_check
+Note: This script requires CBA.
+
 This script was made to prevent people from using personal arsenal.
 Because it was made as a function it's more secure if someone wanted to tinker with it using a cheat engine :)
 
