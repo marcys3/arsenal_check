@@ -13,4 +13,5 @@ ARSENAL_CHECK_ID = [
 "12345678910111213", //Somebody
 "12312312312312312"  //somebody else
 ];
+publicVariable "ARSENAL_CHECK_ID";
 ```
